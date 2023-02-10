@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Workout-Plan</string>
+    <string name="beginner">BEGINNER</string>
+    <string name="abs1">ABS1</string>
 
 </resources>
