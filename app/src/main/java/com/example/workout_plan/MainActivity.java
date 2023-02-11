@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     private Button absBeginner;
+
     private Button chestBeginner;
     private Button armsBeginner;
     private Button legsBeginner;
@@ -76,6 +77,101 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        absIntermediate = findViewById(R.id.absIntermediate);
+        absIntermediate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntermediateAbs.class);
+                startActivity(intent);
+            }
+        });
 
+        chestIntermediate = findViewById(R.id.chestIntermediate);
+        chestIntermediate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntermediateChest.class);
+                startActivity(intent);
+            }
+        });
+
+        armsIntermediate = findViewById(R.id.armsIntermediate);
+        armsIntermediate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntermediateArms.class);
+                startActivity(intent);
+            }
+        });
+
+        legsIntermediate = findViewById(R.id.legsIntermediate);
+        legsIntermediate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntermediateLegs.class);
+                startActivity(intent);
+            }
+        });
+
+        backIntermediate = findViewById(R.id.backIntermediate);
+        backIntermediate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntermediateBack.class);
+                startActivity(intent);
+            }
+        });
+
+        absAdvanced = findViewById(R.id.absAdvanced);
+        absAdvanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdvancedAbs.class);
+                startActivity(intent);
+            }
+        });
+
+        chestAdvanced = findViewById(R.id.chestAdvanced);
+        chestAdvanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdvancedChest.class);
+                startActivity(intent);
+            }
+        });
+
+        armsAdvanced = findViewById(R.id.armsAdvanced);
+        armsAdvanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdvancedArms.class);
+                startActivity(intent);
+            }
+        });
+
+        legsAdvanced = findViewById(R.id.legsAdvanced);
+        legsAdvanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdvancedLegs.class);
+                startActivity(intent);
+            }
+        });
+
+        backAdvanced = findViewById(R.id.backAdvanced);
+        backAdvanced.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdvancedBack.class);
+                startActivity(intent);
+            }
+        });
+
+
+    }
+
+    public void abs1(View v) {
+        Intent intent = new Intent(MainActivity.this, BeginnerAbs.class);
+        startActivity(intent);
     }
 }
