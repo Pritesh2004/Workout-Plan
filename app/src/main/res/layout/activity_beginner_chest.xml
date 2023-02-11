@@ -17,13 +17,14 @@
         android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleMarginStart="120dp"
         app:title="CHEST BEGINNER"
         app:titleTextColor="#FFF" />
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="748dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-3dp">
 
@@ -50,7 +51,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="* 15 mins - 7 workouts"
+                    android:text="* 15 mins - 9 workouts"
                     android:textColor="#003549"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -136,7 +137,7 @@
                         android:id="@+id/imageView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/push_ups" />
+                        app:srcCompat="@drawable/incline_push_ups" />
 
                 </LinearLayout>
 
@@ -153,7 +154,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="27dp"
                         android:fontFamily="sans-serif"
-                        android:text="PUSH-UPS"
+                        android:text="INCLINE PUSH-UPS"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -164,7 +165,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="x10"
+                        android:text="x6"
                         android:textColor="#454749"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -194,7 +195,7 @@
                         android:id="@+id/imageView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/barbell_bench_press" />
+                        app:srcCompat="@drawable/push_ups" />
 
                 </LinearLayout>
 
@@ -211,7 +212,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="27dp"
                         android:fontFamily="sans-serif"
-                        android:text="BARBELL BENCH PRESS"
+                        android:text="PUSH-UPS"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -222,7 +223,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="x10"
+                        android:text="x6"
                         android:textColor="#454749"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -252,7 +253,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bench_press_incline" />
+                        app:srcCompat="@drawable/tricep_dips" />
 
                 </LinearLayout>
 
@@ -269,7 +270,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="27dp"
                         android:fontFamily="sans-serif"
-                        android:text="INCLINE BARBELL BENCH PRESS"
+                        android:text="TRICEPS DIPS"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -280,7 +281,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="x10"
+                        android:text="x6"
                         android:textColor="#454749"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -310,7 +311,7 @@
                         android:id="@+id/imageView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/bench_press_decline" />
+                        app:srcCompat="@drawable/knee_push_ups" />
 
                 </LinearLayout>
 
@@ -327,7 +328,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="27dp"
                         android:fontFamily="sans-serif"
-                        android:text="DECLINE BARBELL BENCH PRESS"
+                        android:text="KNEE PUSH-UPS"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -338,7 +339,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="x10"
+                        android:text="x8"
                         android:textColor="#454749"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -396,7 +397,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="x14"
+                        android:text="x4"
                         android:textColor="#454749"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -426,7 +427,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/chest_stretch" />
+                        app:srcCompat="@drawable/tricep_dips" />
 
                 </LinearLayout>
 
@@ -443,13 +444,129 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="27dp"
                         android:fontFamily="sans-serif"
-                        android:text="CHEST STRETCH"
+                        android:text="TRICEPS DIPS"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="x4"
+                        android:textColor="#454749"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_weight="2"
+                android:background="#003549" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/cobra_stretch" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="27dp"
+                        android:fontFamily="sans-serif"
+                        android:text="COBRA STRETCH"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="00:20"
+                        android:textColor="#454749"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_weight="2"
+                android:background="#003549" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/triceps_stretch" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="27dp"
+                        android:fontFamily="sans-serif"
+                        android:text="TRICEPS STRETCH"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView38"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -464,8 +581,34 @@
 
 
 
+
+
         </LinearLayout>
     </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+
+
+            android:background="@drawable/btn"
+            android:text="Start"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 
