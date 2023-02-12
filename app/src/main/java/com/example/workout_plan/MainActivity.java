@@ -2,12 +2,15 @@ package com.example.workout_plan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    Dialog mDialog;
     private Button absBeginner;
 
     private Button chestBeginner;
@@ -174,4 +177,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, BeginnerAbs.class);
         startActivity(intent);
     }
+
+
 }

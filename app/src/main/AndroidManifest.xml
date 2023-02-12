@@ -12,6 +12,27 @@
         android:theme="@style/Theme.WorkoutPlan"
         tools:targetApi="31">
         <activity
+            android:name=".popup_plan"
+            android:exported="false" />
+        <activity
+            android:name=".popup_leg_raises"
+            android:exported="false" />
+        <activity
+            android:name=".popup_mountain_climber"
+            android:exported="false" />
+        <activity
+            android:name=".popup_heel_touch"
+            android:exported="false" />
+        <activity
+            android:name=".popup_russian_twist"
+            android:exported="false" />
+        <activity
+            android:name=".popup_abdominal_crunches"
+            android:exported="false" />
+        <activity
+            android:name=".popup_jumping_jacks"
+            android:exported="false" />
+        <activity
             android:name=".AdvancedBack"
             android:exported="false" />
         <activity

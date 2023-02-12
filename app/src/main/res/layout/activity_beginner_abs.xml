@@ -64,6 +64,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="jumping_jacks"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -122,6 +123,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="abdominal_crunches"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -180,6 +182,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="russian_twist"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -238,6 +241,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="heel_touches"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -296,6 +300,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="mountain_climber"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -354,6 +359,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="leg_raises"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
@@ -412,6 +418,7 @@
                 android:background="#003549" />
 
             <LinearLayout
+                android:onClick="plank"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal">
