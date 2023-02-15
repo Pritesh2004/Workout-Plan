@@ -12,6 +12,15 @@
         android:theme="@style/Theme.WorkoutPlan"
         tools:targetApi="31">
         <activity
+            android:name=".advanced"
+            android:exported="false" />
+        <activity
+            android:name=".intermediate"
+            android:exported="false" />
+        <activity
+            android:name=".beginner"
+            android:exported="false" />
+        <activity
             android:name=".popup_plan"
             android:exported="false" />
         <activity
