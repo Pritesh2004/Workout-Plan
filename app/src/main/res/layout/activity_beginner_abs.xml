@@ -481,12 +481,10 @@
         android:background="#FFFFFF">
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/startAbsBeginner"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-
-
             android:background="@drawable/btn"
             android:text="Start"
             android:textAlignment="center"

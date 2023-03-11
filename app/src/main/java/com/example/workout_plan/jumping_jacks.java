@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class IntermediateChest extends AppCompatActivity {
+public class jumping_jacks extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intermediate_chest);
+        setContentView(R.layout.activity_jumping_jacks);
         getSupportActionBar().hide();
     }
 }

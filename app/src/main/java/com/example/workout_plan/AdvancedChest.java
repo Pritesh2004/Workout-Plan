@@ -10,5 +10,6 @@ public class AdvancedChest extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advanced_chest);
+        getSupportActionBar().hide();
     }
 }
