@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".jumping_jacks">
+    tools:context=".abdominal_crunches">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/jumping_jacks" />
+            app:srcCompat="@drawable/abdominal_crunches" />
 
     </LinearLayout>
 
@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="JUMPING JACKS"
+            android:text="ABDOMINAL CRUNCHES"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="24sp"
@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="00 : 30"
+            android:text="X16"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="45sp"
@@ -92,7 +92,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:drawableLeft="@drawable/baseline_skip_previous_24"
-                android:onClick="plank" />
+                android:onClick="jumping_jacks" />
 
             <Button
                 android:id="@+id/button3"
@@ -101,7 +101,7 @@
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:drawableRight="@drawable/baseline_skip_next_24"
-                android:onClick="abdominal_crunches_page" />
+                android:onClick="abdominal_crunches" />
 
         </LinearLayout>
 
